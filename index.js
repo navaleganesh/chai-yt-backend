@@ -14,10 +14,10 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/about',(req,res)=>{
-    res.send(details.name);
+    res.json(details);
 })
 
-app.listen(port, ()=>{
-    console.log(`Server is start at ${port}`);
+app.listen(process.env.PORT, ()=>{
+    console.log(`Server is start at ${process.env.PORT}`);
     
 })
