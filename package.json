@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "author": "Ganesh Navale",
-  "license": "ISC",
+  "license": "ISC", 
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.2.1"
